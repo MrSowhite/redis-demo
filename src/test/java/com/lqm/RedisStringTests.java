@@ -14,7 +14,7 @@ import java.util.Map;
 @SpringBootTest
 public class RedisStringTests {
 
-    // 2 hot
+    // 2 hot hot
     // StringRedisTemplate类的key和value的序列化方式默认为String方式，省去了自定义RedisTemplate的过程
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
